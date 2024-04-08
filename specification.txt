@@ -1,0 +1,23 @@
+* Tags HTML
+
+- <!DOCTYPE html>
+- <html>
+- <head>
+- <meta> (várias)
+- <title>
+- </head>
+- <body>
+- <ul>
+- <ol>
+- <li>
+
+* CSS3 Properties
+
+- font-family
+- max-width
+- margin
+- object-fit
+- background
+ 
+* JavaScript and Bootstrap were chosen to add interactivity and dynamism to the page, 
+in addition to facilitating development with pre-built and responsive components.

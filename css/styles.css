@@ -1,0 +1,91 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+#nav {
+    font-family: "JetBrains Mono", monospace;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(53, 11, 133), rgb(199, 174, 30));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carousel-item img {
+    object-fit: contain;
+}
+
+main {
+    font-family: "JetBrains Mono", monospace;
+    max-width: 75vw;
+    margin: 50px auto;
+}
+
+section {
+    margin: 30px auto;
+    max-width: 60vw;
+}
+
+section h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: #342bb6;
+}
+
+section h4 {
+    font-weight: bold;
+}
+
+section p {
+    font-size: x-large;
+}
+
+section blockquote {
+    font-size: x-large;
+    font-style: italic;
+    padding-left: 10px;
+    color: rgb(140, 206, 34);
+    border-left: rgb(212, 20, 20) 4px solid;
+    margin: 1rem 0;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-title {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.card-body {
+    font-size: x-large;
+}
+
+.btn {
+    font-size: x-large;
+    margin: 8px 8px;
+    padding: 8px 15px;
+    border-radius: 0.7rem;
+}
+
+@media (max-width: 992px) {
+    main {
+        max-width: 85vw;
+    }
+    section {
+        max-width: 75vw;
+    }
+}
